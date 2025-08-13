@@ -58,6 +58,7 @@ class _HomePageState extends State<HomePage> {
             return Scaffold(
               backgroundColor: Colors.white,
               appBar: AppBar(
+                automaticallyImplyLeading: false,
                 backgroundColor: const Color.fromARGB(255, 18, 113, 70),
                 title: Text(
                   "GREEN STORE",
